@@ -16,7 +16,8 @@ const UsuarioSchema = Schema({
         required: [true, 'La contraseña es obligatoria']
     },
     img: {
-        type: String
+        type: String,
+        default: ''
     },
     rol: {
         type: String,
